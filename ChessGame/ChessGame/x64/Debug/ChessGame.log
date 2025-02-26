@@ -1,0 +1,73 @@
+﻿  Poll.h
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(12,34): error C2661: Rook::Rook: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(12,34):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(13,36): error C2661: Knight::Knight: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(13,36):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(14,36): error C2661: Bishop::Bishop: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(14,36):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(15,35): error C2661: Queen::Queen: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(15,35):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(16,34): error C2661: King::King: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(16,34):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(17,36): error C2661: Bishop::Bishop: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(17,36):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(18,36): error C2661: Knight::Knight: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(18,36):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(19,34): error C2661: Rook::Rook: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(19,34):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(21,38): error C2661: Pawn::Pawn: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(21,38):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(24,34): error C2661: Rook::Rook: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(24,34):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(25,36): error C2661: Knight::Knight: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(25,36):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(26,36): error C2661: Bishop::Bishop: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(26,36):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(27,35): error C2661: Queen::Queen: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(27,35):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(28,34): error C2661: King::King: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(28,34):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(29,36): error C2661: Bishop::Bishop: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(29,36):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(30,36): error C2661: Knight::Knight: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(30,36):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(31,34): error C2661: Rook::Rook: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(31,34):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
+C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(33,38): error C2661: Pawn::Pawn: нет перегруженной функции, принимающей 3 аргументов
+  C:\Users\РПО1124\source\repos\ChessGame\ChessGame\Poll.h(33,38):
+  при попытке сопоставить список аргументов "(const char [6], int, int)"
+  
