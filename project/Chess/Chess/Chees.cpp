@@ -1,6 +1,10 @@
 
 #include <iostream>
 #include <string>
+#include"Poll.h"
+#include"IView.h"
+#include"Figure.h"
+#include"ChessBoard.h"
 
 using namespace std;
 
@@ -8,215 +12,18 @@ using namespace std;
 int absolute(int value) {
     return (value < 0) ? -value : value;
 }
+ChessBoard chessBoard = ChessBoard();
+//Figure figure = Figure();
 
-// Базовый класс для шахматной фигуры
-class ChessPiece {
-protected:
-    string color;
-    int x, y;
 
-public:
-    ChessPiece(const string& color, int x, int y) : color(color), x(x), y(y) {}
 
-    virtual ~ChessPiece() {}
 
-    // Виртуальный метод для проверки возможности хода
-    virtual bool canMove(int newX, int newY) const = 0;
 
-    // Метод для перемещения фигуры
-    void move(int newX, int newY) {
-        if (canMove(newX, newY)) {
-            x = newX;
-            y = newY;
-            cout << "Moved to (" << x << ", " << y << ")\n";
-        }
-        else {
-            cout << "Invalid move\n";
-        }
-    }
-
-    // Метод для получения цвета фигуры
-    string getColor() const {
-        return color;
-    }
-
-    // Метод для получения текущих координат
-    pair<int, int> getPosition() const {
-        return { x, y };
-    }
-
-    // Виртуальный метод для получения символа фигуры
-    virtual char getSymbol() const = 0;
-};
-
-// Класс для пешки
-class Pawn : public ChessPiece {
-public:
-    Pawn(const string& color, int x, int y) : ChessPiece(color, x, y) {}
-
-    bool canMove(int newX, int newY) const override {
-        int direction = (color == "white") ? 1 : -1;
-        return (newX == x) && (newY == y + direction);
-    }
-
-    char getSymbol() const override {
-        return (color == "white") ? 'P' : 'p';
-    }
-};
-
-// Класс для ладьи
-class Rook : public ChessPiece {
-public:
-    Rook(const string& color, int x, int y) : ChessPiece(color, x, y) {}
-
-    bool canMove(int newX, int newY) const override {
-        return (newX == x) || (newY == y);
-    }
-
-    char getSymbol() const override {
-        return (color == "white") ? 'R' : 'r';
-    }
-};
-
-// Класс для коня
-class Knight : public ChessPiece {
-public:
-    Knight(const string& color, int x, int y) : ChessPiece(color, x, y) {}
-
-    bool canMove(int newX, int newY) const override {
-        int dx = absolute(newX - x);
-        int dy = absolute(newY - y);
-        return (dx == 2 && dy == 1) || (dx == 1 && dy == 2);
-    }
-
-    char getSymbol() const override {
-        return (color == "white") ? 'N' : 'n';
-    }
-};
-
-// Класс для слона
-class Bishop : public ChessPiece {
-public:
-    Bishop(const string& color, int x, int y) : ChessPiece(color, x, y) {}
-
-    bool canMove(int newX, int newY) const override {
-        return absolute(newX - x) == absolute(newY - y);
-    }
-
-    char getSymbol() const override {
-        return (color == "white") ? 'B' : 'b';
-    }
-};
-
-// Класс для ферзя
-class Queen : public ChessPiece {
-public:
-    Queen(const string& color, int x, int y) : ChessPiece(color, x, y) {}
-
-    bool canMove(int newX, int newY) const override {
-        return (newX == x) ?????????????(absolute(newX - x) == absolute(newY - y));
-    }
-
-    char getSymbol() const override {
-        return (color == "white") ? 'Q' : 'q';
-    }
-};
-
-// Класс для короля
-class King : public ChessPiece {
-public:
-    King(const string& color, int x, int y) : ChessPiece(color, x, y) {}
-
-    bool canMove(int newX, int newY) const override {
-        int dx = absolute(newX - x);
-        int dy = absolute(newY - y);
-        return (dx <= 1 && dy <= 1);
-    }
-
-    char getSymbol() const override {
-        return (color == "white") ? 'K' : 'k';
-    }
-};
-
-// Класс для шахматной доски
-class ChessBoard {
-private:
-    static const int SIZE = 8;
-    ChessPiece* board[SIZE][SIZE];
-
-public:
-    ChessBoard() {
-        // Инициализация доски пустыми указателями
-        for (int i = 0; i < SIZE; ++i) {
-            for (int j = 0; j < SIZE; ++j) {
-                board[i][j] = nullptr;
-            }
-        }
-    }
-
-    ~ChessBoard() {
-        // Освобождение памяти
-        for (int i = 0; i < SIZE; ++i) {
-            for (int j = 0; j < SIZE; ++j) {
-                if (board[i][j] != nullptr) {
-                    delete board[i][j];
-                }
-            }
-        }
-    }
-
-    // Метод для размещения фигуры на доске
-    void
-
-   
-    placePiece(ChessPiece* piece, int x, int y) {
-        if (x >= 0 && x < SIZE && y >= 0 && y < SIZE) {
-            board[x][y] = piece;
-        }
-    }
-
-    // Метод для отображения доски
-    void display() const {
-        cout << "  a b c d e f g h\n";
-        for (int i = 0; i < SIZE; ++i) {
-            cout << 8 - i << " ";
-            for (int j = 0; j < SIZE; ++j) {
-                if (board[i][j] != nullptr) {
-                    cout << board[i][j]->getSymbol() << " ";
-                }
-                else {
-                    cout << ". ";
-                }
-            }
-            cout << 8 - i << "\n";
-        }
-        cout << "  a b c d e f g h\n";
-    }
-
-    // Метод для перемещения фигуры
-    void movePiece(int x1, int y1, int x2, int y2) {
-        if (x1 >= 0 && x1 < SIZE && y1 >= 0 && y1 < SIZE &&
-            x2 >= 0 && x2 < SIZE && y2 >= 0 && y2 < SIZE) {
-            ChessPiece* piece = board[x1][y1];
-            if (piece != nullptr && piece->canMove(x2, y2)) {
-                board[x2][y2] = piece;
-                board[x1][y1] = nullptr;
-                piece->move(x2, y2);
-            }
-            else {
-                cout << "Invalid move\n";
-            }
-        }
-        else {
-            cout << "Out of board bounds\n";
-        }
-    }
-};
 
 int main() {
     ChessBoard board;
 
-    // Размещение фигур на доске
+   
     board.placePiece(new Rook("white", 0, 0), 0, 0);
     board.placePiece(new Knight("white", 0, 1), 0, 1);
     board.placePiece(new Bishop("white", 0, 2), 0, 2);

@@ -1,0 +1,614 @@
+﻿  Chess.cpp
+  ChessBoard.h
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(115,22): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+  (компиляция исходного файла "ChessBoard.h")
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(4,5): error C2084: функция "int absolute(int)" уже имеет текст реализации
+  (компиляция исходного файла "ChessBoard.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(4,5):
+  см. предыдущее определение "absolute"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,13): error C2011: Figure: переопределение типа "class"
+  (компиляция исходного файла "ChessBoard.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,12): error C2011: Pawn: переопределение типа "class"
+  (компиляция исходного файла "ChessBoard.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,12): error C2011: Rook: переопределение типа "class"
+  (компиляция исходного файла "ChessBoard.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,14): error C2011: Knight: переопределение типа "class"
+  (компиляция исходного файла "ChessBoard.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,14): error C2011: Bishop: переопределение типа "class"
+  (компиляция исходного файла "ChessBoard.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,13): error C2011: Queen: переопределение типа "class"
+  (компиляция исходного файла "ChessBoard.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,12): error C2011: King: переопределение типа "class"
+  (компиляция исходного файла "ChessBoard.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(25,21): warning C4150: удаление указателя на неполный тип "Figure"; деструктор не вызван
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(45,39): error C2027: использование неопределенного типа "Figure"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(61,37): error C2027: использование неопределенного типа "Figure"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(64,17): error C2027: использование неопределенного типа "Figure"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+  Figure.h
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(115,22): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+  IViewChess.h
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(115,22): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+  (компиляция исходного файла "IViewChess.h")
+  
+  MCore.h
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(115,22): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+  (компиляция исходного файла "MCore.h")
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(4,5): error C2084: функция "int absolute(int)" уже имеет текст реализации
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(4,5):
+  см. предыдущее определение "absolute"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,13): error C2011: Figure: переопределение типа "class"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,12): error C2011: Pawn: переопределение типа "class"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,12): error C2011: Rook: переопределение типа "class"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,14): error C2011: Knight: переопределение типа "class"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,14): error C2011: Bishop: переопределение типа "class"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,13): error C2011: Queen: переопределение типа "class"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,12): error C2011: King: переопределение типа "class"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(25,21): warning C4150: удаление указателя на неполный тип "Figure"; деструктор не вызван
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(45,39): error C2027: использование неопределенного типа "Figure"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(61,37): error C2027: использование неопределенного типа "Figure"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(64,17): error C2027: использование неопределенного типа "Figure"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\IViewChess.h(3,1): error C2011: IViewChess: переопределение типа "interface"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\IViewChess.h(2,13):
+   см. объявление "IViewChess"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(5,1): error C2011: ChessBoard: переопределение типа "class"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(4,7):
+   см. объявление "ChessBoard"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(8,16): error C2079: "Poll::board" использует не имеющую определения структуру class "ChessBoard"
+  (компиляция исходного файла "MCore.h")
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(11,34): error C2027: использование неопределенного типа "Rook"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(12,36): error C2027: использование неопределенного типа "Knight"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(13,36): error C2027: использование неопределенного типа "Bishop"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(14,35): error C2027: использование неопределенного типа "Queen"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(15,34): error C2027: использование неопределенного типа "King"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(16,36): error C2027: использование неопределенного типа "Bishop"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(17,36): error C2027: использование неопределенного типа "Knight"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(18,34): error C2027: использование неопределенного типа "Rook"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(20,38): error C2027: использование неопределенного типа "Pawn"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(23,34): error C2027: использование неопределенного типа "Rook"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(24,36): error C2027: использование неопределенного типа "Knight"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(25,36): error C2027: использование неопределенного типа "Bishop"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(26,35): error C2027: использование неопределенного типа "Queen"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(27,34): error C2027: использование неопределенного типа "King"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(28,36): error C2027: использование неопределенного типа "Bishop"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(29,36): error C2027: использование неопределенного типа "Knight"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(30,34): error C2027: использование неопределенного типа "Rook"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(32,38): error C2027: использование неопределенного типа "Pawn"
+  (компиляция исходного файла "MCore.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+  Poll.h
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(115,22): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+  (компиляция исходного файла "Poll.h")
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(4,5): error C2084: функция "int absolute(int)" уже имеет текст реализации
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(4,5):
+  см. предыдущее определение "absolute"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,13): error C2011: Figure: переопределение типа "class"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,12): error C2011: Pawn: переопределение типа "class"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,12): error C2011: Rook: переопределение типа "class"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,14): error C2011: Knight: переопределение типа "class"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,14): error C2011: Bishop: переопределение типа "class"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,13): error C2011: Queen: переопределение типа "class"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,12): error C2011: King: переопределение типа "class"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(25,21): warning C4150: удаление указателя на неполный тип "Figure"; деструктор не вызван
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(45,39): error C2027: использование неопределенного типа "Figure"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(61,37): error C2027: использование неопределенного типа "Figure"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(64,17): error C2027: использование неопределенного типа "Figure"
+  (компиляция исходного файла "Poll.h")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(11,34): error C2027: использование неопределенного типа "Rook"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(12,36): error C2027: использование неопределенного типа "Knight"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(13,36): error C2027: использование неопределенного типа "Bishop"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(14,35): error C2027: использование неопределенного типа "Queen"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(15,34): error C2027: использование неопределенного типа "King"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(16,36): error C2027: использование неопределенного типа "Bishop"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(17,36): error C2027: использование неопределенного типа "Knight"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(18,34): error C2027: использование неопределенного типа "Rook"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(20,38): error C2027: использование неопределенного типа "Pawn"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(23,34): error C2027: использование неопределенного типа "Rook"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(24,36): error C2027: использование неопределенного типа "Knight"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(25,36): error C2027: использование неопределенного типа "Bishop"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(26,35): error C2027: использование неопределенного типа "Queen"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(27,34): error C2027: использование неопределенного типа "King"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(28,36): error C2027: использование неопределенного типа "Bishop"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(29,36): error C2027: использование неопределенного типа "Knight"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(30,34): error C2027: использование неопределенного типа "Rook"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(32,38): error C2027: использование неопределенного типа "Pawn"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+  IView.h
+  Chees.cpp
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(115,22): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+  (компиляция исходного файла "Chees.cpp")
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(4,5): error C2084: функция "int absolute(int)" уже имеет текст реализации
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(4,5):
+  см. предыдущее определение "absolute"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,13): error C2011: Figure: переопределение типа "class"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,12): error C2011: Pawn: переопределение типа "class"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,12): error C2011: Rook: переопределение типа "class"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,14): error C2011: Knight: переопределение типа "class"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,14): error C2011: Bishop: переопределение типа "class"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,13): error C2011: Queen: переопределение типа "class"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,12): error C2011: King: переопределение типа "class"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(25,21): warning C4150: удаление указателя на неполный тип "Figure"; деструктор не вызван
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(45,39): error C2027: использование неопределенного типа "Figure"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(61,37): error C2027: использование неопределенного типа "Figure"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(64,17): error C2027: использование неопределенного типа "Figure"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(7,7):
+   см. объявление "Figure"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(11,34): error C2027: использование неопределенного типа "Rook"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(12,36): error C2027: использование неопределенного типа "Knight"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(13,36): error C2027: использование неопределенного типа "Bishop"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(14,35): error C2027: использование неопределенного типа "Queen"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(15,34): error C2027: использование неопределенного типа "King"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(16,36): error C2027: использование неопределенного типа "Bishop"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(17,36): error C2027: использование неопределенного типа "Knight"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(18,34): error C2027: использование неопределенного типа "Rook"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(20,38): error C2027: использование неопределенного типа "Pawn"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(23,34): error C2027: использование неопределенного типа "Rook"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(24,36): error C2027: использование неопределенного типа "Knight"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(25,36): error C2027: использование неопределенного типа "Bishop"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(26,35): error C2027: использование неопределенного типа "Queen"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(27,34): error C2027: использование неопределенного типа "King"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(28,36): error C2027: использование неопределенного типа "Bishop"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(29,36): error C2027: использование неопределенного типа "Knight"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(30,34): error C2027: использование неопределенного типа "Rook"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Poll.h(32,38): error C2027: использование неопределенного типа "Pawn"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\IViewChess.h(3,1): error C2011: IViewChess: переопределение типа "interface"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\IViewChess.h(2,13):
+   см. объявление "IViewChess"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(5,1): error C2011: ChessBoard: переопределение типа "class"
+  (компиляция исходного файла "Chees.cpp")
+  C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(4,7):
+   см. объявление "ChessBoard"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(15,12): error C2079: "chessBoard" использует не имеющую определения структуру class "ChessBoard"
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(15,35): error C2027: использование неопределенного типа "ChessBoard"
+  C:\Users\РПО1124\source\repos\Chess\Chess\ChessBoard.h(4,7):
+   см. объявление "ChessBoard"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(24,16): error C2079: "board" использует не имеющую определения структуру class "ChessBoard"
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(27,30): error C2027: использование неопределенного типа "Rook"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(28,32): error C2027: использование неопределенного типа "Knight"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(29,32): error C2027: использование неопределенного типа "Bishop"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(30,31): error C2027: использование неопределенного типа "Queen"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(31,30): error C2027: использование неопределенного типа "King"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(32,32): error C2027: использование неопределенного типа "Bishop"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(33,32): error C2027: использование неопределенного типа "Knight"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(34,30): error C2027: использование неопределенного типа "Rook"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(36,34): error C2027: использование неопределенного типа "Pawn"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(39,30): error C2027: использование неопределенного типа "Rook"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(40,32): error C2027: использование неопределенного типа "Knight"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(41,32): error C2027: использование неопределенного типа "Bishop"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(42,31): error C2027: использование неопределенного типа "Queen"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(110,7):
+   см. объявление "Queen"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(43,30): error C2027: использование неопределенного типа "King"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(124,7):
+   см. объявление "King"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(44,32): error C2027: использование неопределенного типа "Bishop"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(96,7):
+   см. объявление "Bishop"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(45,32): error C2027: использование неопределенного типа "Knight"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(80,7):
+   см. объявление "Knight"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(46,30): error C2027: использование неопределенного типа "Rook"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(66,7):
+   см. объявление "Rook"
+  
+C:\Users\РПО1124\source\repos\Chess\Chess\Chees.cpp(48,34): error C2027: использование неопределенного типа "Pawn"
+  C:\Users\РПО1124\source\repos\Chess\Chess\Figure.h(51,7):
+   см. объявление "Pawn"
+  
+  Создание кода...
